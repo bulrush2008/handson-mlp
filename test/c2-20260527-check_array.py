@@ -2,7 +2,7 @@
 from sklearn.utils import check_array
 
 a = [[1,2,3],[4,5,6],[7,8,9]]
-b = check_array(a)
+b = check_array(a) # 返回一个numpy数组
 print(b)
 
 #c = [1,2,3]
