@@ -27,7 +27,7 @@ plt.rc('ytick',labelsize=10)
 
 # code exammple 1-1
 
-# download the prepared the data
+# 直接从网络读取数据：缓存，但并不下载存储到本地
 data_root = "https://github.com/ageron/data/raw/main/"
 lifesat = pd.read_csv(data_root + "lifesat/lifesat.csv")
 X = lifesat[["GDP per capita (USD)"]].values
